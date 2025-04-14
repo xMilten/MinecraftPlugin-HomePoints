@@ -1,0 +1,16 @@
+name: TutorialPlugin
+main: de.xxmiltenxx.plugin.TutorialPlugin
+version: 1.0
+api-version: "1.21.4"
+commands:
+  sethome:
+    description: Setzt dein Home
+  home:
+    description: Teleportiert dich zu deinem Home
+  delhome:
+    description: Löscht ein Home
+  listhomes:
+    description: Listet alle Homes des Spielers auf
+  setmaxhomes:
+    description: Setzt die maximale Anzahl an Home-Punkten (nur für Konsole/OP)
+    usage: /setmaxhomes <zahl>
